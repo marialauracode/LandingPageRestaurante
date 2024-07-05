@@ -1,46 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protótipo do Restaurante</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-
-<header>
- <nav class="nav-menu">
-<ul>
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">GALERIA</a></li>
-    <li><a href="#">CHEFS</a></li>
-    <li><a href="#">MENU</a></li>
-    <li><a href="#">CONTATOS</a></li>
-    <li><a href="#">SOBRE</a></li>
-</ul>
- </nav>
-
- <div class="logo">
-    <img src="./imagens/fundonovo.png" alt="logo">
-</div>
-</header>
-
-<body>
-<div class="container">
-    <h1>EXPERIÊNCIA<br> GOURMET</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis accusamus magni in aliquam illum, ducimus impedit asperiores natus sequi omnis, autem dignissimos. Vel, repellendus recusandae!</p>
-     </div>
-    <div class="botao">
-        <button>Acesse aqui</button>
-     </div>
-</body>
-</html>
-
-/*CSS*/
-
 @charset "UTF-8";
+
 
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -54,6 +13,7 @@ body {
     margin: 0;
     }
 
+
 header{    
     padding: 10px;
     height: 70px;
@@ -64,7 +24,9 @@ li{
     color: white;
     font-size: 18px;
     display: inline;
-}
+
+    }
+  
 
 .nav-menu a:hover::after{
     width: 100%;
@@ -72,7 +34,8 @@ li{
 
 .nav-menu ul li a{
     margin-bottom: 10px;
-    color:white; 
+    color:white;
+   
 }
 
 .nav-menu a{
@@ -111,6 +74,7 @@ ul{
     margin-top:-90px
 }
 
+
 .container{
 margin: 60px;
 padding: 18px;
@@ -137,8 +101,9 @@ padding: 18px;
     top: -84px;
     margin-left: -1px;
     transform: translateX(8px);  
+    
+ 
 }
-
 button{
     padding: 10px 13px;
     font-size: 16px;
@@ -147,7 +112,8 @@ button{
     color: white;
     border: none;
     border-radius:5px;  
-    transform: translateX(15px);   
+    transform: translateX(15px);  
+    
 }
 
 .botao{
@@ -156,14 +122,14 @@ button{
     display:flex;
     justify-content:left;
     margin-left:69px;
-    top:-70px;    
+    top:-70px; 
+      
 }
 
 .botao button{
     color:white;
     font-size: 14px;  
 }
-
 button:hover {
     background-color: #ca6e4c
 }
