@@ -1,4 +1,4 @@
-## 📂 Sobre o Projeto
+# 📂 Sobre o Projeto
 
 * Landing page desenvolvida como protótipo da página principal de um restaurante fictício;
 * Criada utilizando HTML5 e CSS3 para estruturação e estilização;
