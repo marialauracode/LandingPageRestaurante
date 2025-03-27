@@ -15,3 +15,4 @@
 
 * Design atrativo para divulgação do restaurante;
 * Botões e links interativos com efeitos visuais;
+* Apenas visual e sem responsividade.
